@@ -76,7 +76,7 @@ Narrative sections (technical summary, leadership summary) may be rewritten for 
 - Long artifacts inside `<details><summary>…</summary>…</details>`  
 - Defang all risky text (URLs, domains, IPs, emails, commands)  
 - Preserve literal values inside fences; short captions under screenshots  
-- Clarity via syntax highlighting by language tag and structure (headings, lists, tables, collapsibles) — no custom color styling  
+- Clarity via syntax highlighting by language tag and structure (headings, lists, tables, collapsibles) 
 - Executive sections stay plain English; dense artifacts live in Evidence
 
 **Editability**  
