@@ -16,7 +16,7 @@ Analysts lose time balancing readability vs technical fidelity, formatting evide
 **Done looks like**  
 - Deterministic, policy-compliant Markdown + Timeline + HTML preview  
 - Passes safety (defang) and lint gates  
-- Requires < 5% edits on mature prompts
+- Requires < 5% edits
 
 **How (now)**  
 Prompt engineering + tool-calling only (no SFT).
