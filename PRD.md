@@ -32,12 +32,15 @@ Normalize all inputs once so generation is reliable and repeatable.
 
 **Behavior (capture)**  
 - **Alert overview:** ticket_id, source, alert_title, observed_at (ISO), severity, quick what/when/where/how/who  
-- **User/Entity:** user/device IDs, names, emails, titles, accounts, hostnames  
+- **User/Entity:** user/device IDs, names, emails, titles, accounts, hostnames
+- **Analysis, Investigation and Triage Steps:** Analyst documents intermediate findings and reasoning before actions to capture context for AI summary + timeline
 - **Search queries:** Splunk / Sentinel / Defender / KQL / custom  
 - **Raw logs:** Firewall, IDS/IPS, Proxy, Auth, VPN, Network, DHCP, Web Requests, Email; Entra Audit/Sign-in; Device/OS/Email/CloudApps events  
 - **IoCs & payloads:** domains, IPs, URLs, hashes, registry changes, URIs, scripts/commands (PowerShell/Bash/Python), code samples  
 - **OSINT/Sandbox:** reputation results, detonation notes, screenshots (file/URL + caption)  
-- **Actions taken:** list with timestamps  
+- **Actions taken:** list with timestamps
+- **Escalated to:** if the analyst escalates the case (e.g., to Tier 3, Incident Response, or Management), they record the recipient and timestamp here
+- **Final Summary (Conclusion):** analyst explains the entire case in their own words to capture contextual understanding for AI summary + timeline
 - **Leadership summary / Next steps / Lessons learned:** optional drafts  
 - **UX:** multi-section form, autosave, drag-drop screenshots, validators (required fields, ISO time parsing)
 
